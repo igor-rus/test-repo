@@ -1,0 +1,32 @@
+.form-label {
+    width: 150px !important;
+}
+
+.form-label-left {
+    width: 150px !important;
+}
+
+.form-line {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.form-label-right {
+    width: 150px !important;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background: url(http://jotformeu.com/images/brushed.png) 50% 50% rgb(153, 153, 153);
+}
+
+.form-all {
+    margin: 0px auto;
+    padding-top: 20px;
+    width: 650px;
+    background: url(http://jotformeu.com/images/brushed.png) 50% 50% rgb(153, 153, 153);
+    color: black !important;
+    font-family: 'Verdana';
+    font-size: 12px;
+}

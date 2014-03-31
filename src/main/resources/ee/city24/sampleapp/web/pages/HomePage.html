@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+      xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.4-strict.dtd">
+<head>
+    <wicket:head>
+        <wicket:link>
+            <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+        </wicket:link>
+    </wicket:head>
+</head>
+<body>
+Placeholder Page for Wicket Stuff DataTables examples.
+
+<div style="width: 980px">
+    <form action="#" wicket:id="user_add">
+        <table>
+            <tr>
+                <th>Username:</th>
+                <td>
+                    <input wicket:id="userName" type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <th>First name:</th>
+                <td>
+                    <input wicket:id="firstName" type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <th>Last name:</th>
+                <td>
+                    <input wicket:id="lastName" type="text"/>
+                </td>
+            </tr>
+            <tr>
+                <th>Password:</th>
+                <td>
+                    <input wicket:id="password" type="text"/>
+                </td>
+            </tr>
+        </table>
+        <input value="Save" name="save" type="submit"/>
+    </form>
+</div>
+<div>
+    <table class="dataview" cellspacing="0" wicket:id="datatable">[table]</table>
+</div>
+</body>
+
+</html>
