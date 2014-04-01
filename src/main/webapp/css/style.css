@@ -22,9 +22,9 @@ body, html {
 }
 
 .form-all {
-    margin: 0px auto;
+    margin: 5px auto;
     padding-top: 20px;
-    width: 650px;
+    width: 680px;
     background: url(http://jotformeu.com/images/brushed.png) 50% 50% rgb(153, 153, 153);
     color: black !important;
     font-family: 'Verdana';
